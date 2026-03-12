@@ -12,11 +12,13 @@ public class BookMyStayApp {
         System.out.println("Price per night: 1500.0");
         System.out.println("Available Rooms: 5\n");
 
+
         System.out.println("Double Room:");
         System.out.println("Beds: 2");
         System.out.println("Size: 400 sqft");
         System.out.println("Price per night: 2500.0");
         System.out.println("Available Rooms: 3\n");
+
 
         System.out.println("Suite Room:");
         System.out.println("Beds: 3");
