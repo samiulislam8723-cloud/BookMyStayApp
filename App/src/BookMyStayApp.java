@@ -21,6 +21,7 @@ public class BookMyStayApp{
         System.out.println("Suite Room:");
         System.out.println("Beds: 3");
         System.out.println("Size: 750 sqft");
+
         System.out.println("Price per night: 5000.0");
         System.out.println("Available: 2");
 
