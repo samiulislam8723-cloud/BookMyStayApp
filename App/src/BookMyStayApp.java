@@ -1,18 +1,29 @@
-public class BookMyStayApp {
+// Use Case 2: Basic Room Types & Static Availability
+
+public class BookMyStayApp{
+
     public static void main(String[] args) {
 
-        // Application Name and Version
-        String appName = "Book My Stay - Hotel Booking System";
-        String version = "Version 1.0";
+        System.out.println("Hotel Room Initialization\n");
 
-        // Welcome Message
-        System.out.println("=================================");
-        System.out.println(appName);
-        System.out.println(version);
-        System.out.println("=================================");
-        System.out.println("Welcome to Book My Stay!");
-        System.out.println("Your smart hotel booking solution.");
-        System.out.println("Application started successfully.");
+        System.out.println("Single Room:");
+        System.out.println("Beds: 1");
+        System.out.println("Size: 250 sqft");
+        System.out.println("Price per night: 1500.0");
+        System.out.println("Available: 5\n");
+
+        System.out.println("Double Room:");
+        System.out.println("Beds: 2");
+        System.out.println("Size: 400 sqft");
+        System.out.println("Price per night: 2500.0");
+        System.out.println("Available: 3\n");
+
+        System.out.println("Suite Room:");
+        System.out.println("Beds: 3");
+        System.out.println("Size: 750 sqft");
+
+        System.out.println("Price per night: 5000.0");
+        System.out.println("Available: 2");
 
     }
 }
